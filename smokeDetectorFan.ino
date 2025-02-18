@@ -1,3 +1,7 @@
+/* Runs off of an ESP32
+  This is a quick and cheap design using an MQ2 and DHT22 sensor
+  Goal is to power on different speeds on a lasko box fan based on smoke detection or high temparature
+  */
 #include <DHT_U.h>
 #include <DHT.h>
 
