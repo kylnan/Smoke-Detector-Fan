@@ -75,7 +75,7 @@ void loop() {
     digitalWrite(relay3, HIGH);
     Serial.print(" | LOW SPEED");
   }
-  // If below 75F and no smoke, leave fan off
+  // If below 28C and no smoke, leave fan off
   else if(temp <= 28.00 && smokeDigital == HIGH){
     digitalWrite(relay1, HIGH);
     digitalWrite(relay2, HIGH);
