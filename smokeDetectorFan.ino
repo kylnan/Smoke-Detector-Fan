@@ -8,6 +8,7 @@
 // DHT setup
 #define DHTPIN 32
 DHT dht(DHTPIN, DHT22);
+
 // sensor pin declarations
 const int mq_AO = 35;
 const int mq_DO = 34;
@@ -22,9 +23,6 @@ const int relay2 = 19;
 const int relay3 = 21;
 
 void setup() {  
-  // put your setup code here, to run once:
-  dht.begin();
-  
   pinMode(mq_AO, INPUT);
   pinMode(mq_DO, INPUT);
   
@@ -45,7 +43,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   smokeAnalog = analogRead(mq_AO);
   smokeDigital = digitalRead(mq_DO);
   float temp = dht.readTemperature();
