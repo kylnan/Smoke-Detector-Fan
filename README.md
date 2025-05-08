@@ -9,7 +9,7 @@ Next steps are to have the sensors moved closer to the stove (right under the mi
 ## ESP-NOW Protocol.
 Need to look into implementation
 
-### RTOS implementation?
+## RTOS implementation?
 After that (although I feel this may be overkill), I was wondering if implementing it with RTOS would be good.
 
 Here is a rough first build (looks bad I know)
