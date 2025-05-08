@@ -9,6 +9,6 @@ Next steps are to have the sensors moved closer to the stove (right under the mi
 ### RTOS implementation?
 After that (although I feel this may be overkill), I was wondering if implementing it with RTOS would be good.
 
-Here is a rough first build
+Here is a rough first build (looks bad I know)
 
 ![First Build](https://github.com/kylnan/Smoke-Detector-Fan/blob/main/IMG_0898.jpg)
