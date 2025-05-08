@@ -3,7 +3,7 @@
 This is the start of an embedded project I want to build on further and see how much more advanced I can make it
 Right now all I have is a few sensors, an esp32, and a relay hooked up to your average box fan. I wanted to build this so I could have an automatic exhaust fan when cooking food.
 
-~ ### Wifi Implementation?
+~Wifi Implementation?
 Next steps are to have the sensors moved closer to the stove (right under the microwave) and have two esp32s communicate over wifi.~
 
 ## ESP-NOW Protocol.
